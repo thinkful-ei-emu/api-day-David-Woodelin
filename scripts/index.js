@@ -19,3 +19,9 @@ function main() {
 }
 
 $(main);
+
+// fetch('https://thinkful-list-api.herokuapp.com/ei-student/items')
+//   .then(res => res.json())
+//   .then(data => console.log(data));
+
+//   console.log('Hi im woodelin');
