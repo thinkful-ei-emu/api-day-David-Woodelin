@@ -7,3 +7,14 @@ $(document).ready(function() {
 });
 
 store.items.push(Item.create('apples'));
+
+api.getItems()
+  .then(res => {
+    console.log(res);
+  });
+
+
+// fetch('https://thinkful-list-api.herokuapp.com/ei-student/items')
+//   .then(res => res.json())
+//   .then(data => console.log(data))
+//   .then(console.log('I am David'));
